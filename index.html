@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salcedo Peluquería y Estética | Arganda del Rey</title>
+<meta name="description" content="Salcedo Peluquería y Estética, en la Calle Real 77 de Arganda del Rey. Corte, color, mechas, peinados de evento, maquillaje, estética y manicura. Pide cita.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ivory: '#fbf8f6',
+          plum: '#3d2638',
+          plumSoft: '#5a3c53',
+          rose: '#c9867f',
+          roseDark: '#b06f68',
+          blush: '#f3e6e3',
+          gold: '#b89a5e',
+          line: '#e8dcd8'
+        },
+        fontFamily: {
+          display: ['Marcellus', 'Georgia', 'serif'],
+          sans: ['Jost', 'Segoe UI', 'system-ui', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body { font-family: 'Jost', 'Segoe UI', system-ui, sans-serif; color: #3d2638; background: #fbf8f6; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: 'Marcellus', Georgia, serif; font-weight: 400; text-wrap: balance; }
+  section[id], footer[id] { scroll-margin-top: 72px; }
+  .input { width: 100%; border: 1px solid #e8dcd8; border-radius: 999px; padding: .75rem 1.1rem; font: inherit; background: #fff; color: #3d2638; }
+  textarea.input { border-radius: 18px; }
+  .input:focus { outline: 2px solid #c9867f; outline-offset: 0; border-color: #c9867f; }
+  .campo { display: block; font-size: .75rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 .4rem .4rem; color: #5a3c53; }
+  details.menu summary { list-style: none; cursor: pointer; }
+  details.menu summary::-webkit-details-marker { display: none; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid #c9867f; outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<div class="bg-plum text-blush text-center text-xs tracking-wide py-2 px-4">Propuesta de diseño para Salcedo Belleza · Fotos de ejemplo, se cambiarán por las vuestras</div>
+
+<!-- Cabecera -->
+<header class="sticky top-0 z-40 bg-ivory/95 backdrop-blur border-b border-line">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4" aria-label="Navegación principal">
+    <a href="#inicio" class="leading-none" aria-label="Salcedo Peluquería y Estética, inicio">
+      <span class="block font-display text-2xl tracking-wide">Salcedo</span>
+      <span class="block text-[10px] tracking-[0.3em] uppercase text-rose mt-1">Peluquería y estética</span>
+    </a>
+    <div class="hidden md:flex items-center gap-7 text-sm">
+      <a href="#servicios" class="hover:text-rose">Servicios</a>
+      <a href="#opiniones" class="hover:text-rose">Opiniones</a>
+      <a href="#horario" class="hover:text-rose">Horario</a>
+      <a href="#donde" class="hover:text-rose">Dónde estamos</a>
+      <a href="#cita" class="bg-plum text-ivory px-5 py-2.5 rounded-full hover:bg-plumSoft">Pide cita</a>
+    </div>
+    <details class="menu md:hidden relative">
+      <summary aria-label="Abrir menú" class="w-11 h-11 grid place-items-center rounded-full border border-line">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </summary>
+      <div class="absolute right-0 mt-2 w-60 bg-white border border-line rounded-2xl shadow-xl py-2 text-sm">
+        <a href="#servicios" class="block px-5 py-3 hover:bg-blush">Servicios</a>
+        <a href="#opiniones" class="block px-5 py-3 hover:bg-blush">Opiniones</a>
+        <a href="#horario" class="block px-5 py-3 hover:bg-blush">Horario</a>
+        <a href="#donde" class="block px-5 py-3 hover:bg-blush">Dónde estamos</a>
+        <a href="#cita" class="block mx-4 mt-2 mb-1 text-center bg-plum text-ivory px-4 py-3 rounded-full">Pide cita</a>
+      </div>
+    </details>
+  </nav>
+</header>
+
+<!-- Portada -->
+<section id="inicio" class="max-w-6xl mx-auto px-4 sm:px-6 py-14 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14 items-center">
+  <div>
+    <p class="inline-flex items-center gap-2 text-sm bg-white border border-line rounded-full px-4 py-1.5">
+      <span class="text-gold">★★★★★</span> 4,8 en Google · 136 reseñas
+    </p>
+    <h1 class="mt-6 text-5xl md:text-6xl leading-[1.05]">Tu peluquería en el centro de Arganda</h1>
+    <p class="mt-5 text-lg text-plumSoft max-w-md">Corte, color y mechas, peinados para bodas y eventos, maquillaje, estética y manicura. Para mujeres y hombres.</p>
+    <div class="mt-8 flex flex-col sm:flex-row gap-3">
+      <a href="#cita" class="text-center bg-plum text-ivory px-8 py-4 rounded-full hover:bg-plumSoft">Pide tu cita</a>
+      <a href="tel:918715329" class="text-center border border-plum px-8 py-4 rounded-full hover:bg-blush">Llamar al 918 71 53 29</a>
+    </div>
+    <p class="mt-6 text-sm text-plumSoft">C/ Real, 77 · Arganda del Rey</p>
+  </div>
+  <div class="relative">
+    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&q=70&auto=format&fit=crop" alt="Peluquera secando el pelo a una clienta en el salón" class="w-full aspect-[4/5] object-cover rounded-t-[200px] rounded-b-3xl">
+    <div class="absolute -bottom-5 left-5 right-5 sm:left-auto sm:right-6 sm:w-64 bg-white rounded-2xl shadow-lg p-4 text-sm">
+      <p class="text-gold">★★★★★</p>
+      <p class="mt-1">"Siempre salgo encantada."</p>
+      <p class="mt-1 text-plumSoft text-xs">Ángeles S. · Google</p>
+    </div>
+  </div>
+</section>
+
+<!-- Servicios -->
+<section id="servicios" class="bg-white border-y border-line py-20 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto">
+    <p class="text-xs tracking-[0.3em] uppercase text-rose">Servicios</p>
+    <h2 class="mt-3 text-4xl">Todo para que salgas como quieres</h2>
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <article>
+        <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=700&q=70&auto=format&fit=crop" alt="Peluquera peinando a una clienta" class="w-full aspect-[3/4] object-cover rounded-3xl">
+        <h3 class="mt-4 text-2xl">Corte y peinado</h3>
+        <p class="mt-1 text-sm text-plumSoft">Para mujer, hombre y niños.</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&q=70&auto=format&fit=crop" alt="Melena con mechas balayage" class="w-full aspect-[3/4] object-cover rounded-3xl">
+        <h3 class="mt-4 text-2xl">Color y mechas</h3>
+        <p class="mt-1 text-sm text-plumSoft">Tintes, mechas y balayage, con tratamiento para cuidar el pelo.</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=700&q=70&auto=format&fit=crop" alt="Maquillaje profesional para un evento" class="w-full aspect-[3/4] object-cover rounded-3xl">
+        <h3 class="mt-4 text-2xl">Bodas y eventos</h3>
+        <p class="mt-1 text-sm text-plumSoft">Peinados y maquillaje para novias, madrinas e invitadas.</p>
+      </article>
+      <article>
+        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=700&q=70&auto=format&fit=crop" alt="Manicura con esmalte oscuro" class="w-full aspect-[3/4] object-cover rounded-3xl">
+        <h3 class="mt-4 text-2xl">Estética y manicura</h3>
+        <p class="mt-1 text-sm text-plumSoft">Manicura y tratamientos de estética.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Opiniones -->
+<section id="opiniones" class="py-20 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+      <div>
+        <p class="text-xs tracking-[0.3em] uppercase text-rose">Opiniones</p>
+        <h2 class="mt-3 text-4xl">Lo que dicen nuestras clientas</h2>
+      </div>
+      <p class="text-plumSoft"><span class="font-display text-4xl text-plum">4,8</span> / 5 en Google · 136 reseñas</p>
+    </div>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <figure class="bg-white border border-line rounded-3xl p-7 flex flex-col gap-3">
+        <p class="text-gold">★★★★★</p>
+        <blockquote class="leading-relaxed">"Me he mudado a Arganda y quería encontrar una peluquería de confianza y no me he equivocado. He salido encantada tanto por el trato como por el trabajo. Recomendable 100%."</blockquote>
+        <figcaption class="mt-auto text-sm text-plumSoft">Claudia L. · Google</figcaption>
+      </figure>
+      <figure class="bg-white border border-line rounded-3xl p-7 flex flex-col gap-3">
+        <p class="text-gold">★★★★★</p>
+        <blockquote class="leading-relaxed">"Nos peinaron a mi hija y a mí, y en mi caso también me maquillaron, para una boda. Son unas grandísimas profesionales, encantadoras, y nos dejaron guapísimas."</blockquote>
+        <figcaption class="mt-auto text-sm text-plumSoft">Carmen S. · Google</figcaption>
+      </figure>
+      <figure class="bg-white border border-line rounded-3xl p-7 flex flex-col gap-3">
+        <p class="text-gold">★★★★★</p>
+        <blockquote class="leading-relaxed">"Siempre me dejan unas mechas preciosas con súper tratamiento para evitar daño."</blockquote>
+        <figcaption class="mt-auto text-sm text-plumSoft">Johanna V. · Google</figcaption>
+      </figure>
+      <figure class="bg-white border border-line rounded-3xl p-7 flex flex-col gap-3">
+        <p class="text-gold">★★★★★</p>
+        <blockquote class="leading-relaxed">"Son unas grandes profesionales. Saben captar a la perfección las preferencias de los clientes. Te hacen sentir muy cómoda en un ambiente agradable."</blockquote>
+        <figcaption class="mt-auto text-sm text-plumSoft">Virginia C. · Google</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Horario y salón -->
+<section id="horario" class="bg-blush py-20 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=1100&q=70&auto=format&fit=crop" alt="Interior de un salón de peluquería con espejos redondos" class="w-full aspect-[4/3] object-cover rounded-3xl">
+    <div>
+      <p class="text-xs tracking-[0.3em] uppercase text-rose">Horario</p>
+      <h2 class="mt-3 text-4xl">Cuándo encontrarnos</h2>
+      <table class="mt-8 w-full text-sm">
+        <tbody class="divide-y divide-line">
+          <tr><td class="py-3 font-medium">Lunes</td><td class="py-3 text-right">9:30–14:00 · 16:00–20:00</td></tr>
+          <tr><td class="py-3 font-medium">Martes</td><td class="py-3 text-right">9:30–14:00</td></tr>
+          <tr><td class="py-3 font-medium">Miércoles</td><td class="py-3 text-right">9:30–14:00 · 16:00–20:00</td></tr>
+          <tr><td class="py-3 font-medium">Jueves</td><td class="py-3 text-right">9:30–14:00 · 16:00–20:00</td></tr>
+          <tr><td class="py-3 font-medium">Viernes</td><td class="py-3 text-right">9:30–20:00 (sin cerrar a mediodía)</td></tr>
+          <tr><td class="py-3 font-medium">Sábado</td><td class="py-3 text-right">8:30–15:00</td></tr>
+          <tr><td class="py-3 font-medium">Domingo</td><td class="py-3 text-right text-plumSoft">Cerrado</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Pide cita -->
+<section id="cita" class="py-20 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-12">
+    <div class="lg:col-span-2">
+      <p class="text-xs tracking-[0.3em] uppercase text-rose">Pide cita</p>
+      <h2 class="mt-3 text-4xl">Reserva tu momento</h2>
+      <p class="mt-4 text-plumSoft leading-relaxed">Déjanos tus datos y te confirmamos la cita por WhatsApp. Si lo prefieres, llámanos.</p>
+      <div class="mt-8 space-y-4 text-sm">
+        <p><span class="text-plumSoft">Teléfono del salón</span><br><a href="tel:918715329" class="text-xl font-display">918 71 53 29</a></p>
+        <p><span class="text-plumSoft">Móvil</span><br><a href="tel:696845319" class="text-xl font-display">696 84 53 19</a></p>
+      </div>
+    </div>
+    <form id="form-cita" class="lg:col-span-3 bg-white border border-line rounded-3xl p-6 md:p-8 grid grid-cols-1 sm:grid-cols-2 gap-5" novalidate>
+      <label class="block"><span class="campo">Servicio *</span>
+        <select id="servicio" name="servicio" required class="input">
+          <option value="">Elige un servicio</option>
+          <option>Corte y peinado</option><option>Color o mechas</option><option>Peinado o maquillaje para evento</option><option>Estética o manicura</option><option>Otro</option>
+        </select></label>
+      <label class="block"><span class="campo">Día que te viene bien</span><input id="dia" name="dia" class="input" placeholder="Por ejemplo, jueves por la tarde"></label>
+      <label class="block"><span class="campo">Nombre *</span><input id="nombre" name="nombre" required autocomplete="name" class="input"></label>
+      <label class="block"><span class="campo">Teléfono *</span><input id="telefono" name="telefono" type="tel" required autocomplete="tel" class="input"></label>
+      <label class="block sm:col-span-2"><span class="campo">Algo que debamos saber</span><textarea id="nota" name="nota" rows="3" class="input" placeholder="Por ejemplo, el color que quieres o la fecha de la boda"></textarea></label>
+      <label class="sm:col-span-2 flex gap-3 items-start text-xs text-plumSoft"><input id="privacidad" type="checkbox" name="privacidad" required class="mt-0.5 accent-[#c9867f]"><span>Acepto la política de privacidad *</span></label>
+      <p id="form-error" class="sm:col-span-2 hidden text-sm text-red-700"></p>
+      <button type="submit" class="sm:col-span-2 bg-plum text-ivory px-8 py-4 rounded-full hover:bg-plumSoft">Pedir cita por WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<!-- Dónde estamos -->
+<section id="donde" class="bg-white border-t border-line py-20 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <div>
+      <p class="text-xs tracking-[0.3em] uppercase text-rose">Dónde estamos</p>
+      <h2 class="mt-3 text-4xl">C/ Real, 77</h2>
+      <p class="mt-3 text-plumSoft">28500 Arganda del Rey, Madrid</p>
+      <a href="https://www.google.com/maps/place/Salcedo+Peluquer%C3%ADa+y+Est%C3%A9tica/@40.2993566,-3.4340692,17z" target="_blank" rel="noopener" class="inline-block mt-6 border border-plum px-7 py-3 rounded-full hover:bg-blush">Cómo llegar</a>
+    </div>
+    <iframe title="Mapa de Salcedo Peluquería y Estética" src="https://www.google.com/maps?q=40.2993566,-3.4340692&z=16&output=embed" class="w-full aspect-[4/3] rounded-3xl border border-line" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<!-- Pie -->
+<footer id="contacto" class="bg-plum text-blush/80 text-sm">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <p class="font-display text-2xl text-ivory">Salcedo</p>
+      <p class="text-[10px] tracking-[0.3em] uppercase text-rose mt-1">Peluquería y estética</p>
+    </div>
+    <div>
+      <p class="text-ivory">Contacto</p>
+      <p class="mt-2"><a href="tel:918715329" class="hover:text-ivory">918 71 53 29</a> · <a href="tel:696845319" class="hover:text-ivory">696 84 53 19</a></p>
+      <p>C/ Real, 77 · 28500 Arganda del Rey</p>
+    </div>
+    <div>
+      <p class="text-ivory">Síguenos</p>
+      <p class="mt-2"><a href="https://www.instagram.com/salcedobelleza/" target="_blank" rel="noopener" class="hover:text-ivory">Instagram @salcedobelleza</a></p>
+    </div>
+  </div>
+  <p class="border-t border-white/10 text-center py-5 text-xs">© 2026 Salcedo Belleza</p>
+</footer>
+
+<a href="https://wa.me/34696845319" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Salcedo Belleza" class="fixed bottom-5 right-5 z-50 w-14 h-14 rounded-full bg-[#25D366] text-white grid place-items-center shadow-lg hover:scale-105 transition-transform">
+  <svg class="w-8 h-8" viewBox="0 0 32 32" fill="currentColor"><path d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.18 1.6 6L4 29l8.17-1.57a12.03 12.03 0 0 0 3.87.63h.01C22.7 28.06 28 22.66 28 16.03 28 9.4 22.68 3 16.04 3zm0 22.04c-1.2 0-2.38-.32-3.4-.93l-.24-.15-4.85.93.95-4.72-.16-.25a9.97 9.97 0 0 1-1.54-5.3c0-5.5 4.5-9.98 10.03-9.98 5.52 0 9.99 4.47 9.99 9.98 0 5.5-4.47 10.42-9.78 10.42zm5.5-7.45c-.3-.15-1.780-.88-2.05-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.95 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.68-1.64-.93-2.25-.25-.58-.5-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.25 5.15 4.55.72.3 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.58-.35z"/></svg>
+</a>
+
+<script>
+  (function () {
+    var form = document.getElementById('form-cita');
+    var error = document.getElementById('form-error');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = form.elements, faltan = [];
+      if (!f.servicio.value) faltan.push('servicio');
+      if (!f.nombre.value.trim()) faltan.push('nombre');
+      if (!f.telefono.value.trim()) faltan.push('teléfono');
+      if (!f.privacidad.checked) faltan.push('aceptar la política de privacidad');
+      if (faltan.length) { error.textContent = 'Falta: ' + faltan.join(', ') + '.'; error.classList.remove('hidden'); return; }
+      error.classList.add('hidden');
+      var texto = 'Hola, quiero pedir cita\n\nServicio: ' + f.servicio.value + '\nDía: ' + (f.dia.value.trim() || 'cualquiera') +
+        '\nNombre: ' + f.nombre.value.trim() + '\nTeléfono: ' + f.telefono.value.trim() + (f.nota.value.trim() ? '\n\n' + f.nota.value.trim() : '');
+      window.open('https://wa.me/34696845319?text=' + encodeURIComponent(texto), '_blank', 'noopener');
+    });
+  })();
+</script>
+</body>
+</html>
